@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+.left-column {
+    position: relative;
+    left: 300px;
+    background: url("../assets//beerimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -300;
+}

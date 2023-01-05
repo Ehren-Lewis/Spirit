@@ -1,0 +1,33 @@
+
+
+.nav-style {
+    width: 50%;
+    /* color: white;     */
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 100px 0;
+    float: right;
+    padding-right: 30px;
+
+}
+
+
+
+.nav-style > .anchor-style {
+    text-decoration: none;
+    background-size: 0% 100%;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    transition: all .3s ease-in-out;
+    color: white;
+}
+
+.nav-style > .anchor-style:hover {
+    cursor: pointer;
+    z-index: 1;
+    color: black;
+    background-size: 100% 100%;
+}
+
